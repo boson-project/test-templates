@@ -1,0 +1,14 @@
+schema_version: 0.0.1
+
+name: test-templates
+version: 0.0.1
+url: https://github.com/boson-project/test-templates
+
+runtimes:
+  - path: go
+    templates:
+    - path: e2e
+  - path: runtime
+    templates:
+      - path: dir-a
+      - path: dir-b
