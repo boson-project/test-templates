@@ -1,0 +1,4 @@
+# Buildpacks for building Go projects using Pack
+buildpacks:
+  - paketo-buildpacks/go-dist
+  - ghcr.io/boson-project/go-function-buildpack:tip
